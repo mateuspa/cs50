@@ -1,4 +1,6 @@
-agenda = ["mateus", "marcela", "fernanda"]
+# implementando loops
 
-for n in range (3):
-    print(agenda[n])
+agenda = ["mateus", "marcela", "fernanda", "joana","maria"]
+
+for n in range (len(agenda)):
+    print(n,":",agenda[n])
