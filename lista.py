@@ -1,5 +1,6 @@
-# implementando recursos em phyton
+# testando rotinas de treinamentos Python
 
+# implementando recursos em phyton
 """
 # implementando loops
 agenda = ["mateus", "marcela", "fernanda", "joana","maria"]
@@ -7,7 +8,10 @@ agenda = ["mateus", "marcela", "fernanda", "joana","maria"]
 for n in range (len(agenda)):
     print(n,":",agenda[n])
 
+"""
+
 # implementando dicionário e loops
+"""
 pessoas = {
     "mateus": "Uberaba",
     "marcela": "Boston",
@@ -19,8 +23,9 @@ pessoas = {
 for pessoa in pessoas:
     print(pessoa,":",pessoas[pessoa])
 """
-print("")
 
+# implementando dicionário e loops
+print("")
 pessoas = [
     {"nome": "mateus", "cidade": "Uberaba", "estado": "Minas Gerais"},
     {"nome": "marcela", "cidade": "Boston","estado": "MA"},
@@ -29,8 +34,10 @@ pessoas = [
     {"nome": "maria", "cidade": "qualquer lugar","estado": None}
 ]
 
-
+print("nome", "cidade", "estado", "\n", sep=" | ", )
 for pessoa in pessoas:
     print(pessoa["nome"], pessoa["cidade"], pessoa["estado"], sep=" | ")
+
+
 
 print("")
