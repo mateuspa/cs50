@@ -25,6 +25,8 @@ for pessoa in pessoas:
 """
 
 # implementando dicionário e loops
+import time
+
 print("")
 pessoas = [
     {"nome": "mateus", "cidade": "Uberaba", "estado": "Minas Gerais"},
@@ -37,7 +39,5 @@ pessoas = [
 print("nome", "cidade", "estado", "\n", sep=" | ", )
 for pessoa in pessoas:
     print(pessoa["nome"], pessoa["cidade"], pessoa["estado"], sep=" | ")
-
-
-
 print("")
+timer(3)
