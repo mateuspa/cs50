@@ -28,6 +28,8 @@ for pessoa in pessoas:
 import time
 
 print("")
+
+#criando lista de dados
 pessoas = [
     {"nome": "mateus", "cidade": "Uberaba", "estado": "Minas Gerais"},
     {"nome": "marcela", "cidade": "Boston","estado": "MA"},
@@ -36,8 +38,12 @@ pessoas = [
     {"nome": "maria", "cidade": "qualquer lugar","estado": None}
 ]
 
+#imprimindo títulos
 print("nome", "cidade", "estado", "\n", sep=" | ", )
+
+#imprimindo toda tabela de dados
 for pessoa in pessoas:
     print(pessoa["nome"], pessoa["cidade"], pessoa["estado"], sep=" | ")
+
 print("")
-timer(3)
+time.sleep(3)
